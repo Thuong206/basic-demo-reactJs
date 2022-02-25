@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Body{
+  background-image: linear-gradient(to right bottom, #8500cd, #b800c4);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Container{
+  width: 25rem;
+  height: 28rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 5.25rem 0.125rem black;
+  text-align: center;
+  padding: 1rem 0;
+}
+h2{
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.btnLoginorSingup{
+  margin: 1rem 0;
+}
+.btnLoginorSingup button{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 1rem 2.25rem;
+  margin: 0 0.65rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.btnLoginorSingup button:nth-child(1){
+  background-image: linear-gradient(to right bottom, rgb(191, 0, 255), transparent);
+}
+.btnLoginorSingup button:nth-child(2){
+  background-image: linear-gradient(to left bottom,  rgb(204, 0, 255), transparent);
+}
+
+.input input{
+  outline: none;
+  font-size: 1rem;
+  padding: 1rem 2.25rem;
+  margin: 0.25rem 0;
+  border-radius: 0.25rem;
+  border: none;
+  box-shadow: 2px 1px 5px rgb(242, 0, 255);
+  margin: 0 0 1rem 0;
+}
+.input input:nth-child(1){
+
+}
+.input input:nth-child(2){
+
+}
+.footer{
+  margin: 1rem 0;
+}
+.footer button{
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 1rem 7rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
   color: white;
+  background-color: #b800c4;
+  box-shadow: 2px 1px 5px rgb(140, 140, 140);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  text-decoration: none;
+  margin: 0 0 0 0.5rem ;
+  color: #b800c4;
 }
